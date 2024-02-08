@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.home-landing {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.home-both-col {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.home-leftcontent {
+
+    margin-top: 4em;
+    margin-bottom: 4em;
+    justify-content: flex-end;
+    padding-left: 4em;
+    font-family: 'Alata', sans-serif;
+    text-align: left;
+
+}
+
+.home-animation {
+    margin-top: 4em;
+    align-items: center;
+    margin: auto;
+    height: 50rem;
+    width: 50rem;
+    overflow: hidden;
+}
+
+
+.home-title {
+
+
+    font-weight: 700;
+    line-height: 6.5rem;
+    font-size: 5em;
+}
+
+.home-subtitle {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.getstart {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 4rem;
+    width: 14rem;
+    height: 4rem;
+}
+
+.countup {
+    font-weight: 700;
+    line-height: 4rem;
+    font-size: 2em;
+}
+
+.underbutton p {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+
+.ads {
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.ads marquee {
+    font-family: 'Alata', sans-serif;
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .home-title {
+        font-size: 1.8rem;
+        line-height: 2.4rem !important;
+    }
+
+    .home-subtitle {
+        font-size: 1rem;
+        margin-bottom: 4px;
+        line-height: 1.4rem !important;
+        margin-top: 4px;
+    }
+
+    .home-animation {
+        height: 30rem;
+        overflow: hidden;
+        width: 30rem;
+    }
+    
+    .home-leftcontent {
+        padding-left: 0 !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+
+
+
+    }
+
+    .getstart {
+        width: 100%;
+        height: 2.5rem;
+        font-size: 1em;
+    }
+.gap-3{
+    gap: 3rem !important;
+}
+    .underbutton p {
+        font-size: 0.5rem;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 1rem;
+
+    }
+
+    .countup {
+        font-weight: 600;
+        line-height: 0;
+        font-size: 2em;
+    }
+
+    .ads {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .home-both-col {
+
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-animation {
+
+        height: 20rem;
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .home-animation {
+        margin: 0;
+    }
+
+    .home-both-col {
+        align-items: center;
+        width: 100%;
+        padding-top: 2rem;
+        margin: 0;
+
+    }
+
+    .home-landing {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .home-leftcontent-col {
+        width: 100%;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .home-rightcontent-col {
+        width: 100%;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+}

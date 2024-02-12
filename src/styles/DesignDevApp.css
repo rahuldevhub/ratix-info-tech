@@ -1,0 +1,141 @@
+.DesignDevApp {
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 0;
+    /* padding-bottom: 120px; */
+}
+
+.DesignDevApp-title {
+    
+    font-weight: 300;
+    line-height: 5rem;
+    font-size: 4em;
+    text-align: center;
+}
+
+.DesignDevApp-subtitle {
+    font-family: 'Alata', sans-serif;
+
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.swiper {
+    /* width: 100%; */
+    height: 100%;
+}
+
+.mySwiper {
+    /* padding-top: 52px; */
+    padding-bottom: 52px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DesignDevApp-content-title{
+    font-family: 'Alata', sans-serif;
+
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.DesignDevApp-img {
+    height: 10em;
+    width: 10em;
+    background: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    /* border-radius: 100px;
+    border: solid 1px rebeccapurple;
+    margin-top: 2rem;
+    */
+}
+
+.DesignDevApp-description{
+    font-style: italic;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+
+  }
+
+  @media only screen and (max-width: 992px) {
+    .DesignDevApp{
+        padding-top: 0;
+        margin-left: 0em;
+        margin-right: 0em;
+        padding-bottom: 0;
+    }
+    .DesignDevApp-title {
+        font-size: 2em;
+        line-height: 2rem !important;
+        margin-bottom: 6px !important;
+        
+    }
+
+    .DesignDevApp-subtitle {
+        font-size: 2em;
+        line-height: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 1em !important;
+        /* margin-bottom: 0;
+        text-align: center; */
+    }
+    .mySwiper{
+        margin: 0;
+    }
+    .DesignDevApp-content-title{
+        font-size: 1em;
+    }
+    .DesignDevApp-description{
+        font-size: .7em;
+        padding: 5em;
+        padding-top: .5em !important;
+        padding-bottom: 0 !important;
+    }
+    
+
+}
+
+
+
+
+
+
+
+/* .DesignDevApp-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.card-title{
+    font-size: 2em;
+} */
+
+/* .card-text{
+    font-size: 1.5em;
+    padding-top: 1rem;
+} */
+
+/* .card-img-top{
+    height: 6em;
+    width: 6em;
+    background-color: black;
+    border-radius: 10px;
+} */

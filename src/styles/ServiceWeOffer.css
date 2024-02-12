@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+
+.ServiceWeOffer{
+    margin-top: 52px;
+    margin-bottom: 3rem;
+    margin-left: 6em;
+    margin-right: 6em;
+    
+}
+
+.ServiceWeOffer-title{
+    font-family: 'Alata', sans-serif;
+
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 5em;
+    text-align: left;
+    padding-left: 4rem;
+    /* padding-bottom: 72px; */
+
+}
+.ServiceWeOffer-both{
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.seemore-services {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 4rem;
+    width: 15rem;
+    height: 4rem;
+}
+
+.ServiceWeOffer-col-right{
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .ServiceWeOffer-both{   
+        margin: 1em;
+        margin-bottom: 0 !important;
+        padding-bottom: 0;
+    }
+    .ServiceWeOffer-col-right{
+        text-align: right;
+    }
+    .ServiceWeOffer-title {
+        font-size: 2em;
+        line-height: 2rem !important;
+        padding-left: 0rem;
+      }   
+    .seemore-services{
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 0.6em;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .ServiceWeOffer{
+        margin-top: 2rem;
+        margin-left: 2em !important;
+        margin-right: 2em !important;
+    }
+}

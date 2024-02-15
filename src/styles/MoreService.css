@@ -1,0 +1,104 @@
+.Moreservice {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 4em;
+    padding-top: 0;
+    padding-bottom: 4em;
+}
+
+.Moreservice-title {
+
+    font-weight: 300;
+    line-height: 5rem;
+    font-size: 4em;
+    text-align: center;
+}
+
+.Moreservice-subtitle {
+    font-family: 'Alata', sans-serif;
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+.Moreservice-description {
+    font-style: italic;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Moreservice-card {
+    border: solid 0.1px rgba(102, 51, 153, 0.404);
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+.Moreservice-card-content {
+    margin: 2em;
+}
+
+/* .Servicecontent-img {
+    height: 10em;
+    width: 10em;
+    border-radius: 100px;
+    background: black;
+    margin: 2rem;
+    margin-bottom: 0 !important;
+} */
+.Moreservice-card-description h1 {
+    font-weight: 700;
+    font-family: 'Alata', sans-serif;
+}
+
+.Moreservice-card-body {
+    padding-top: 1rem;
+}
+
+.Moreservice-card-icon {
+    height: 4em;
+    width: 4em;
+    border: solid rebeccapurple 1px;
+    border-radius: 100px;
+    background: white;
+
+    /* margin-bottom: 1rem; */
+}
+
+@media only screen and (max-width: 992px) {
+    .Moreservice-title {
+        font-size: 2em;
+        text-align: center;
+        line-height: 1rem;
+
+    }
+
+    .Moreservice-subtitle {
+        font-size: 1.5em;
+        margin-bottom: 6px !important;
+        text-align: center;
+        line-height: 1rem;
+
+    }
+
+    .Moreservice-description {
+        font-size: .7rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .Moreservice {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-bottom: 0;
+        margin-top: 1.5rem;
+    }
+
+    .Moreservice-card-content {
+        margin: 1rem;
+    }
+}

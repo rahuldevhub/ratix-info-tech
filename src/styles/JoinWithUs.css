@@ -30,7 +30,7 @@
     font-weight: 600;
     color: black;
     background-color: white;
-    /* padding: 1rem , 4rem , 1rem, 4rem ; */
+      border:solid .1px #112672 ;
     padding-top: 1em;
     padding-right: 4em;
     padding-bottom: 1em;
@@ -40,6 +40,7 @@
 }
 .JoinWithUs-content button:hover{
     background-color: #112672;
+    border:solid .1px  white;
     color: white;
 }
 .JoinWithUs-button{

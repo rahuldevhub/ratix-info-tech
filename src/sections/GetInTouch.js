@@ -23,7 +23,7 @@ const GetInTouch = () => {
             <p className='Getintouch-subtitle'data-aos="fade-right"> We're always happy to chat!  Whether you have a question, want to collaborate, or just to say hi, we're here for you. Follow us on your favorite platforms for updates and exclusive contents.</p>
 
           <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'} target='_blank'> <img src={insta}    alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1000" /> </Link>
-        <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'} target='_blank'> <img src={whatsapp}   alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1500" /></Link>
+        <Link to={'https://wa.me/+919489481336'} target='_blank'> <img src={whatsapp}   alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1500" /></Link>
         <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'} target='_blank'> <img src={facebook}   alt='sample' className='socialmedia-img'  data-aos="zoom-in-down" data-aos-duration="2000"/></Link><br />
         <Link to={'https://www.linkedin.com/company/ratix/'} target='_blank'> <img src={linkedin}   alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="2500"/></Link>
         <Link to={'https://twitter.com/rahulriyaz_'} target='_blank'>  <img src={xlogo}   alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="3000"/></Link>

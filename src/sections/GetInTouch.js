@@ -20,7 +20,7 @@ const GetInTouch = () => {
           <div className='Getintouch-left-content'>
 
             <p className='Getintouch-title' data-aos="fade-right">Get In Touch</p>
-            <p className='Getintouch-subtitle'data-aos="fade-right"> We're always happy to chat!  Whether you have a question, want to collaborate, or just to say hi, we're here for you. Follow us on your favorite platforms for updates, inspiration, and exclusive contents.</p>
+            <p className='Getintouch-subtitle'data-aos="fade-right"> We're always happy to chat!  Whether you have a question, want to collaborate, or just to say hi, we're here for you. Follow us on your favorite platforms for updates and exclusive contents.</p>
 
           <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'}> <img src={insta}    alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1000" /> </Link>
         <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'}> <img src={whatsapp}   alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1500" /></Link>

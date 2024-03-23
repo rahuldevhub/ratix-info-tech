@@ -31,7 +31,7 @@ const Home = () => {
                 <Col lg="6" md="6" sm="4" className='home-leftcontent-col'  >
                     <div className='home-leftcontent' >
 
-                        <h3 className='home-title' data-aos="fade-right">From Concept to Reality,<br /> We've Got you <br /> Covered!</h3>
+                        <h3 className='home-title' data-aos="fade-right">From <span style={{color: "#112672"}}>Concept </span> to <span style={{color : "#d61919"}} > Reality, </span> <br/> We've Got you <br /> <span className='covered' >Covered!</span></h3>
                         <p className='home-subtitle' data-aos="fade-left">Ratix Info Tech offers you a unique and enjoyable experience of innovation, as well as a variety of services.</p>
                    
                         

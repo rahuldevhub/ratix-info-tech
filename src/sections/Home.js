@@ -41,7 +41,7 @@ const Home = () => {
                         <div className='underbutton'>
 
                             <Stack direction="horizontal" gap={3} >
-                                <div className="p-2"><p><span><CountUp end={20} duration={2} suffix="+" className="countup" />  </span><br /> Internation Brands</p></div>
+                                <div className="p-2"><p><span><CountUp end={20} duration={2} suffix="+" className="countup" />  </span><br /> International Brands</p></div>
                                 <div className="p-2"><p><span><CountUp end={500} duration={2.5} suffix="+" className="countup" /> </span><br /> Project Completed</p></div>
                                 <div className="p-2"><p><span><CountUp end={1000} duration={3} suffix="+" className="countup" /> </span><br /> Happy Clients</p></div>
                             </Stack>

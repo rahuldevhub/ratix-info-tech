@@ -56,7 +56,8 @@
     text-align: left;
 }
 .JoinWithUs-content{
-    padding: 2em;
+     padding: 2.5em;
+    width: 100%;
 }
 .JoinWithUs-content button{
     font-size: 1em;

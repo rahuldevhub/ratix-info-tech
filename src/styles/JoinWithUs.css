@@ -17,6 +17,7 @@
     padding: 6em;
     align-items: center;
     width: 100%;
+      --bs-gutter-x: 0rem !important;
 }
 
 .JoinWithUs-content p{

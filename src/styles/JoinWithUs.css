@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 992px) {
     .JoinWithUs{
-        margin: 1em;
+             margin-top: 1em;
     }
 .JoinWithUs-content p{
     font-size: 1.5em;

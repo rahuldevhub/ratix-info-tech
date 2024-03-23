@@ -34,7 +34,7 @@ const ClientFeedback = () => {
         {
           id: 3,
           name: "Saran Raj",
-          roll: "Author / Somewhere in the middle of nowhere",
+          roll: "Author",
           img: male4,
           description: "It's really wonderful to work with Rahul. He got a lot of resistivity, creativity and mainly delivers the project on time. I would highly recommend your services to anyone looking for projects."
         },

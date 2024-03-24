@@ -20,9 +20,9 @@ function CollapsibleExample() {
 
           <Nav className='Navbarcomponents'>
           {/* <Nav.Link href="#deets">Home</Nav.Link> */}
-            <Nav.Link href="#About">About Us</Nav.Link>
-            <Nav.Link href="#ServiceWeOffer">Services</Nav.Link>
-            <Nav.Link href="#Testimonials"> Testimonials</Nav.Link>
+            <Nav.Link href="/#About">About Us</Nav.Link>
+            <Nav.Link href="/#ServiceWeOffer">Services</Nav.Link>
+            <Nav.Link href="/#Testimonials"> Testimonials</Nav.Link>
         
             <Nav.Link href="/careers"> Careers</Nav.Link>
             <Nav.Link href="#contact">Contact Us</Nav.Link>

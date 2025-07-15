@@ -1,0 +1,73 @@
+.JoinWithUs{
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-bottom: 2rem !important;
+    background-color: #112672;
+    background-image: url("../Assets/laptop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* border-radius: 2rem; */
+    font-family: 'Alata', sans-serif;
+
+}
+
+.JoinWithUs-content{
+    background-color: #112672be;
+    padding: 6em;
+    align-items: center;
+    width: 100%;
+    --bs-gutter-x: 0rem !important;
+}
+
+.JoinWithUs-content p{
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+
+.JoinWithUs-content button{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border:solid .1px #112672 ;
+    padding-top: 1em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    border-radius: 4em;
+
+}
+.JoinWithUs-content button:hover{
+    background-color: #112672;
+    border:solid .1px  white;
+    color: white;
+}
+.JoinWithUs-button{
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .JoinWithUs{
+        /* margin: 1em; */
+        margin-top: 1em;
+       
+    }
+.JoinWithUs-content p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.JoinWithUs-content{
+    padding: 2.5em;
+    width: 100%;
+    
+}
+.JoinWithUs-content button{
+    font-size: 1em;
+    width: 100%;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+}
